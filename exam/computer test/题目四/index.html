@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label {
+            vertical-align: top;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>
+            要求: 完成同名目录下的列表(关键词: 有序列表, 无序列表)
+        </p>
+        <form action="">
+            <table>
+                <tr>
+                    <td>用户名</td>
+                    <td><input type="text" id="title" name="username" align="left" placeholder="请输入用户名"></td>
+                </tr>
+                <tr>
+                    <td>密码</td>
+                    <td><input type="password" name="password" placeholder="请输入密码"></td>
+                </tr>
+                <tr>
+                    <td>性别</td>
+                    <td>男性<input type="radio" name="sex" value="male" checked="checked"> 女性 <input type="radio" name="sex" value="female">(默认选择男)</女性>
+                </tr>
+                <tr>
+                    <td>兴趣</td>
+                    <td>计算机 <input type="checkbox" name="兴趣" value="计算机"> 数学
+                        <input type="checkbox" name="兴趣" value="数学"> 化学
+                        <input type="checkbox" name="兴趣" value="化学"> 物理
+                        <input type="checkbox" name="兴趣" value="物理">
+                    </td>
+                </tr>
+                <tr>
+                    <td>意愿</td>
+                    <td><select name="意愿">
+                      <option value="前端" selected>前端</option>
+                      <option value="后端">后端</option>
+                      <option value="产品">产品</option>
+                      <option value="设计">设计</option></td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">自我介绍</td>
+                    <td><textarea id="messageContent" name="messageContent" cols="40" rows="15" align="left"></textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit"></td>
+                </tr>
+            </table>
+            <hr>
+        </form>
+    </div>
+    
+</body>
+
+</html>

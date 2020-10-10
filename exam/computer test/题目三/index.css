@@ -1,0 +1,75 @@
+.container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container {
+    width: 870px;
+    height: 100%;
+    margin: 0px auto;
+}
+
+.nav {
+    height: 40px;
+    width: 100%;
+    background-color: #e5e5e5;
+    /*背景颜色: #e5e5e5;  */
+    margin-bottom: 5px;
+}
+
+.page-link {
+    height: 40px;
+    width: 180px;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.text {
+    color: #5b5b5b;
+    /* 颜色: #5b5b5b */
+    font-weight: bold;
+    font-size: 15px;
+    text-align: left;
+    line-height: 40px;
+    height: 40px;
+    padding-left: 20px;
+}
+
+.link {
+    color: #2a801f;
+    /* 颜色: #2a801f */
+}
+
+.footer {
+    height: 40px;
+    width: 100%;
+    background-color: #e5e5e5;
+    /* 背景颜色: #e5e5e5; */
+    margin: 50px auto 10px;
+}
+
+a {
+    color: white;
+    /* 颜色: 白色 */
+    text-decoration: none;
+}
+
+#title {
+    font-size: 48px;
+    /* 改变字号: 48 */
+    color: #2a801f;
+    /* 改变颜色2: #2a801f */
+    font-weight: bold;
+    padding: 0px 5px;
+    margin: 10px 0px;
+}
+
+.container ul li {
+    display: inline-block;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-image: url('assets/page-button.png');
+    /* 添加背景 */
+}
